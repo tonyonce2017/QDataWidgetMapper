@@ -145,6 +145,11 @@ public:
         label_2->setText(QApplication::translate("MainWindow", "data2", 0));
         label_3->setText(QApplication::translate("MainWindow", "data3", 0));
         label_4->setText(QApplication::translate("MainWindow", "data4", 0));
+        comboBox_data4->clear();
+        comboBox_data4->insertItems(0, QStringList()
+         << QApplication::translate("MainWindow", "data4", 0)
+         << QApplication::translate("MainWindow", "data4-1", 0)
+        );
         checkBox_data5->setText(QApplication::translate("MainWindow", "CheckBox", 0));
         pushButton->setText(QApplication::translate("MainWindow", "\346\217\220\344\272\244", 0));
     } // retranslateUi

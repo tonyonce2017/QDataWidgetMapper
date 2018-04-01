@@ -67,7 +67,18 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox_data4"/>
+       <widget class="QComboBox" name="comboBox_data4">
+        <item>
+         <property name="text">
+          <string>data4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>data4-1</string>
+         </property>
+        </item>
+       </widget>
       </item>
      </layout>
     </item>

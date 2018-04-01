@@ -5,8 +5,8 @@
 #include <QDataWidgetMapper>
 #include <QHash>
 #include <QWidget>
+#include "mapdelegate.h"
 
-class MapDelegate;
 namespace Ui {
 class MainWindow;
 }
